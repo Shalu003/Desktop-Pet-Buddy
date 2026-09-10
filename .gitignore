@@ -1,0 +1,11 @@
+# Ignore python compilation cache files
+__pycache__/
+*.pyc
+
+# Ignore build folder outputs from PyInstaller
+build/
+dist/
+*.spec
+
+# Ignore local asset states if you don't want them public
+user_progress.json
